@@ -1,0 +1,25 @@
+﻿  main.cpp
+M:\CienciaDaComputacao\Computacao Grafica\New folder\ConsoleApplication1\ConsoleApplication1\face.h(21,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+M:\CienciaDaComputacao\Computacao Grafica\New folder\ConsoleApplication1\ConsoleApplication1\face.h(22,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+M:\CienciaDaComputacao\Computacao Grafica\New folder\ConsoleApplication1\ConsoleApplication1\face.h(23,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+main.obj : error LNK2019: unresolved external symbol "public: __cdecl Mesh::Mesh(void)" (??0Mesh@@QEAA@XZ) referenced in function "void __cdecl `dynamic initializer for 'mesh''(void)" (??__Emesh@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl Mesh::translateBy(struct Vector3)" (?translateBy@Mesh@@QEAAXUVector3@@@Z) referenced in function "void __cdecl keyboard(unsigned char,int,int)" (?keyboard@@YAXEHH@Z)
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl Mesh::scaleBy(struct Scale)" (?scaleBy@Mesh@@QEAAXUScale@@@Z) referenced in function "void __cdecl keyboard(unsigned char,int,int)" (?keyboard@@YAXEHH@Z)
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl Mesh::rotateBy(float,struct Axis)" (?rotateBy@Mesh@@QEAAXMUAxis@@@Z) referenced in function "void __cdecl mouse(int,int,int,int)" (?mouse@@YAXHHHH@Z)
+main.obj : error LNK2019: unresolved external symbol "void __cdecl render(class Mesh const &)" (?render@@YAXAEBVMesh@@@Z) referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol "void __cdecl loadOBJ(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class Mesh &)" (?loadOBJ@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAVMesh@@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutInitDisplayMode referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutInitWindowPosition referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutInitWindowSize referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutMainLoop referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutCreateWindow referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutPostRedisplay referenced in function "void __cdecl redisplay(int)" (?redisplay@@YAXH@Z)
+main.obj : error LNK2019: unresolved external symbol glutSwapBuffers referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol glutDisplayFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutReshapeFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutKeyboardFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutMouseFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol glutTimerFunc referenced in function "void __cdecl redisplay(int)" (?redisplay@@YAXH@Z)
+M:\VisualCode2022\VC\Auxiliary\VS\lib\x64\glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+M:\CienciaDaComputacao\Computacao Grafica\New folder\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe : fatal error LNK1120: 19 unresolved externals
